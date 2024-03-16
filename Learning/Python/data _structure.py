@@ -34,3 +34,27 @@ fare = (200,500,600)
 print (fare)
 
 #dictionaries
+staff = {
+    "name": "Virtuosi",
+    "designation": "Software engineer",
+    "department" : "Secuviz",
+    "credit_amount":2000
+}
+print (staff)
+print(staff["name"])
+staff["credit_amount"] = 5000
+print (staff)
+staff["preference"] = "Cash"
+print(staff)
+del staff["preference"]
+print(staff)
+
+#if statement
+if "Karen" in estates:
+    print("Karen is in Estate")
+else:
+    print("Karen is not in estates")
+
+#for loop
+for estate in estates:
+    print(estate)
