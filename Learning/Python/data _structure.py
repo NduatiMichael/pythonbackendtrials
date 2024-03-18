@@ -58,3 +58,6 @@ else:
 #for loop
 for estate in estates:
     print(estate)
+
+for items in staff:
+    print (items)
