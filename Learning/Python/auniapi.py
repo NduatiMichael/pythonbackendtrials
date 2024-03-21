@@ -45,6 +45,11 @@ Bulk Disbersment:
 4 - Return success or failed
 """
 
+"""
+Currency Conversion
+1 - Convert the currecies for cross border loading.
+"""
+
 
 #Saraficom Daraja API
 
