@@ -4,8 +4,20 @@ Load  credit:
 1 - Validate the amount and phone number
 2 - Validate the telco to be used
 3 - Trigger Credit loading or return message
-
 """
+Number = "254706443677"
+amount = 200
+balance = 300
+if len(Number) == 12:
+    if amount > 0:
+        if amount <= balance:
+            print("Proceed")
+        else:
+            print("you have insufficient funds")
+    else:
+        print("Enter a valid amount")
+else:
+    print("Enter a valid number")
 
 
 """
