@@ -10,10 +10,7 @@ amount = 200
 balance = 300
 if len(Number) == 12:
     if amount > 0:
-        if amount <= balance:
-            print("Proceed")
-        else:
-            print("you have insufficient funds")
+            print("Proceed to load credit")
     else:
         print("Enter a valid amount")
 else:
@@ -37,7 +34,19 @@ validate top up:
 3 - Check if user's balance is sufficient to process the top up
 4 - Trigger credit disbersment or return a Message
 """
-
+Number = "254706443677"
+amount = 200
+balance = 300
+if len(Number) == 12:
+    if amount > 0:
+        if amount <= balance:
+            print("Proceed to disberse")
+        else:
+            print("You have insufficient funds. Please top up your account.")
+    else:
+        print("Enter a valid amount")
+else:
+    print("Enter a valid number")
 
 
 """

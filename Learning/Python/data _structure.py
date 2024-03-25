@@ -63,8 +63,8 @@ for items in staff:
     print (items)
 #Validate Number
 #Check length
-phone = "+254706443677"
-if len(phone) == 13:
+phonenumber = "+254706443677"
+if len(phonenumber) == 13:
     print("Process payment")
 else:
     print("Please enter a correct number")
